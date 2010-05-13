@@ -80,6 +80,12 @@ FB.provide('UIServer.Methods', {
     transform : FB.UIServer.genericTransform
   },
 
+  'permissions.request': {
+    size      : { width: 525, height: 300 },
+    url       : 'connect/uiserver.php',
+    transform : FB.UIServer.genericTransform
+  },
+
   'profile.addtab': {
     size      : { width: 460, height: 226 },
     url       : 'connect/uiserver.php',
